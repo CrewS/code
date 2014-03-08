@@ -9,8 +9,8 @@ import MySQLdb
 cookie = cookielib.CookieJar()
 opener = urllib2.build_opener(urllib2.HTTPCookieProcessor(cookie))
 postdata=urllib.urlencode({
-        'username':'20121003800',
-        'password':'287310',
+        'username':'',
+        'password':'',
         'login-form-type':'pwd',
         })
 
